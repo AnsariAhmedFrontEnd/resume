@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@300&family=Sacramento&display=swap");
 
 body {
-  margin-top: 0;
+  color:#40514e;
+  margin: 0;
   text-align: center;
   font-family: merriweather, sans-serif;
 }
@@ -14,21 +15,42 @@ h1 {
   /* margin: 0 auto; */
   /* width: 10%; */
 
-  margin-top: 0;
+  margin-top: 50px auto 0 auto;
   font-family: "Sacramento", cursive;
+  /* font-size: 90px;  */
+  /* 100% = 16 px, so to get 90px in %, 90/16 * 100 = 562.5% */
+  /* font-size: 562.5%; */
+  font-size: 5.625rem;
+  /* 1em = 16px */
+  color: #66bfbf;
+
+
 }
 
 h2 {
 font-family: 'Montserrat', sans-serif;
+font-size: 2.5rem;
+color: #66bfbf;
+padding-bottom: 10px;
 }
 
 h3 {
     font-family: 'Montserrat', sans-serif;
+    color: #11999E;
     }
 .top-container {
   background-color: #e4f9f5;
   padding-top: 100px;
   position: relative;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
 }
 
 
@@ -43,3 +65,100 @@ h3 {
   right: 300px;
   top: 50px;
 }
+
+
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+p{
+  line-height: 2;
+}
+
+
+.creative {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+
+.react {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+hr {
+border: dotted #eaf6f6 6px;
+border-bottom: none;
+margin: 100px auto;
+width: 4%;
+}
+
+.btn {
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #119993);
+  background-image: -moz-linear-gradient(top, #11CDD4, #119993);
+  background-image: -ms-linear-gradient(top, #11CDD4, #119993);
+  background-image: -o-linear-gradient(top, #11CDD4, #119993);
+  background-image: -webkit-gradient(to bottom, #11CDD4, #119993);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  font-weight: 100;
+  padding: 16px;
+  -webkit-box-shadow: 1px 1px 20px 0 #000000;
+  -moz-box-shadow: 1px 1px 20px 0 #000000;
+  box-shadow: 1px 1px 20px 0 #000000;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #11999E 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  border: solid #30E3CB 1px;
+  background: #30E3CB;
+  background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -webkit-gradient(to bottom, #30E3CB, #2BC4AD);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+.copy-right {
+color: #eaf6f6;
+font-size: 0.75rem;
+padding: 20px 0;
+}
+
+.my-aim {
+  width: 80%;
+  margin: auto;
+}
+
